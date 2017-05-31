@@ -3,4 +3,6 @@ description = "Basic Panther API implementation."
 
 dependencies {
     compile project(":panther-api")
+
+    compile "com.google.guava:guava:22.0"
 }
