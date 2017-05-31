@@ -1,0 +1,6 @@
+archivesBaseName = "panther-core"
+description = "Basic Panther API implementation."
+
+dependencies {
+    compile project(":panther-api")
+}

@@ -1,0 +1,6 @@
+archivesBaseName = "panther-server"
+description = "Server application for Panther."
+
+dependencies {
+    compile project(":panther-api")
+}

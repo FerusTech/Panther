@@ -1,0 +1,16 @@
+archivesBaseName = "panther-sponge"
+description = "Panther Core extension for Minecraft Sponge Server."
+
+repositories {
+    maven { url = "http://repo.spongepowered.org/maven" }
+}
+
+dependencies {
+    compile project(":panther-core")
+
+    compile "org.spongepowered:spongeapi:7.0.0-SNAPSHOT"
+}
+
+configurations {
+    runtime.exclude module: 'spongeapi'
+}
